@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=c43ef8da-62a7-4abd-a57b-99bcf8dc6057
+    &lang=ru_RU" type="text/javascript">
+    </script>
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/css/lightgallery.min.css">
     <link rel="stylesheet" href="css/itc-custom-select.css">
@@ -54,7 +58,7 @@
             <nav class="header__menu">
                 <ul class="nav-list">
                     <li class="nav-link">
-                        <a href="#">Квартиры</a>
+                        <a class="active" href="#">Квартиры</a>
                     </li>
                     <li class="nav-link">
                         <a href="#">Здания</a>
@@ -110,6 +114,7 @@
                     </div>
                     <div class="intro__discount">
                         <img src="assets/img/intro-discount.png" alt="">
+                        <img src="assets/img/discount-mob.png" alt="">
                     </div>
                 </div>
             </div>
@@ -131,29 +136,23 @@
                 </div>
                 <div class="intro__card">
                     <div class="card__inner">
-                        <img src="assets/img/intro-card-ico.svg" alt="">
-                        <h3 class="card__text">Предлагаем <span>низкие цены за качественную работу</span>,
-                            дешевле
-                            только
-                            своими руками и молотком</h3>
+                        <img src="assets/img/intro-card-ico-2.svg" alt="">
+                        <h3 class="card__text"><span>При заказе работ под ключ скидка до 30%</span> от общей суммы
+                            договора</h3>
                     </div>
                 </div>
                 <div class="intro__card">
                     <div class="card__inner">
-                        <img src="assets/img/intro-card-ico.svg" alt="">
-                        <h3 class="card__text">Предлагаем <span>низкие цены за качественную работу</span>,
-                            дешевле
-                            только
-                            своими руками и молотком</h3>
+                        <img src="assets/img/intro-card-ico-3.svg" alt="">
+                        <h3 class="card__text"><span>Начинаем работы в день заявки</span>, минимально через 3 часа
+                            после звонка</h3>
                     </div>
                 </div>
                 <div class="intro__card">
                     <div class="card__inner">
-                        <img src="assets/img/intro-card-ico.svg" alt="">
-                        <h3 class="card__text">Предлагаем <span>низкие цены за качественную работу</span>,
-                            дешевле
-                            только
-                            своими руками и молотком</h3>
+                        <img src="assets/img/intro-card-ico-4.svg" alt="">
+                        <h3 class="card__text"><span>Все работы выполняем под ключ</span> — только покажите объект,
+                            который нужно убрать</h3>
                     </div>
                 </div>
             </div>
@@ -161,7 +160,51 @@
                 <span>приступаем к выполнению заказа в день заключения договора</span> и все работы выполняем под
                 ключ
             </h1>
-            <div class="swiper works__cards">
+            <div class="works__cards">
+                <div class=" works__card">
+                    <div class="works__card-inner">
+                        <img src="assets/img/works-card-photo.png" alt="" class="works__card-photo">
+                        <h2 class="works__card-name">Демонтаж квартир, перегородок, пола, внутренней отделки</h2>
+                        <h3 class="works__card-price">от 250 руб. за м²</h3>
+                    </div>
+                </div>
+                <div class=" works__card">
+                    <div class="works__card-inner">
+                        <img src="assets/img/works-card-photo-2.png" alt="" class="works__card-photo">
+                        <h2 class="works__card-name">Демонтаж и снос зданий, малоэтажных зданий</h2>
+                        <h3 class="works__card-price">от 250 руб. за м²</h3>
+                    </div>
+                </div>
+                <div class=" works__card">
+                    <div class="works__card-inner">
+                        <img src="assets/img/works-card-photo-3.png" alt="" class="works__card-photo">
+                        <h2 class="works__card-name">Демонтаж коммерческих помещений</h2>
+                        <h3 class="works__card-price">от 250 руб. за м²</h3>
+                    </div>
+                </div>
+                <div class=" works__card">
+                    <div class="works__card-inner">
+                        <img src="assets/img/works-card-photo-4.png" alt="" class="works__card-photo">
+                        <h2 class="works__card-name" style="margin-bottom: 35px;">Демонтаж старых сараев, домов</h2>
+                        <h3 class="works__card-price">от 250 руб. за м²</h3>
+                    </div>
+                </div>
+                <div class="works__card">
+                    <div class="works__card-inner">
+                        <img src="assets/img/works-card-photo-5.png" alt="" class="works__card-photo">
+                        <h2 class="works__card-name">Демонтаж гаражей, ангаров, складов</h2>
+                        <h3 class="works__card-price">от 250 руб. за м²</h3>
+                    </div>
+                </div>
+                <div class="works__card">
+                    <div class="works__card-inner">
+                        <img src="assets/img/works-card-photo-6.png" alt="" class="works__card-photo">
+                        <h2 class="works__card-name">Демонтаж заборов, металлоконструкций</h2>
+                        <h3 class="works__card-price">от 250 руб. за м²</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper works__slider">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide works__card">
                         <div class="works__card-inner">
@@ -172,36 +215,36 @@
                     </div>
                     <div class="swiper-slide works__card">
                         <div class="works__card-inner">
-                            <img src="assets/img/works-card-photo.png" alt="" class="works__card-photo">
-                            <h2 class="works__card-name">Демонтаж квартир, перегородок, пола, внутренней отделки</h2>
+                            <img src="assets/img/works-card-photo-2.png" alt="" class="works__card-photo">
+                            <h2 class="works__card-name">Демонтаж и снос зданий, малоэтажных зданий</h2>
                             <h3 class="works__card-price">от 250 руб. за м²</h3>
                         </div>
                     </div>
                     <div class="swiper-slide works__card">
                         <div class="works__card-inner">
-                            <img src="assets/img/works-card-photo.png" alt="" class="works__card-photo">
-                            <h2 class="works__card-name">Демонтаж квартир, перегородок, пола, внутренней отделки</h2>
+                            <img src="assets/img/works-card-photo-3.png" alt="" class="works__card-photo">
+                            <h2 class="works__card-name">Демонтаж коммерческих помещений</h2>
                             <h3 class="works__card-price">от 250 руб. за м²</h3>
                         </div>
                     </div>
                     <div class="swiper-slide works__card">
                         <div class="works__card-inner">
-                            <img src="assets/img/works-card-photo.png" alt="" class="works__card-photo">
-                            <h2 class="works__card-name">Демонтаж квартир, перегородок, пола, внутренней отделки</h2>
+                            <img src="assets/img/works-card-photo-4.png" alt="" class="works__card-photo">
+                            <h2 class="works__card-name">Демонтаж старых сараев, домов</h2>
                             <h3 class="works__card-price">от 250 руб. за м²</h3>
                         </div>
                     </div>
                     <div class="swiper-slide works__card">
                         <div class="works__card-inner">
-                            <img src="assets/img/works-card-photo.png" alt="" class="works__card-photo">
-                            <h2 class="works__card-name">Демонтаж квартир, перегородок, пола, внутренней отделки</h2>
+                            <img src="assets/img/works-card-photo-5.png" alt="" class="works__card-photo">
+                            <h2 class="works__card-name">Демонтаж гаражей, ангаров, складов</h2>
                             <h3 class="works__card-price">от 250 руб. за м²</h3>
                         </div>
                     </div>
                     <div class="swiper-slide works__card">
                         <div class="works__card-inner">
-                            <img src="assets/img/works-card-photo.png" alt="" class="works__card-photo">
-                            <h2 class="works__card-name">Демонтаж квартир, перегородок, пола, внутренней отделки</h2>
+                            <img src="assets/img/works-card-photo-6.png" alt="" class="works__card-photo">
+                            <h2 class="works__card-name">Демонтаж заборов, металлоконструкций</h2>
                             <h3 class="works__card-price">от 250 руб. за м²</h3>
                         </div>
                     </div>
@@ -313,13 +356,13 @@
                             </div>
                             <h3 class="calc__title">Требуется ли вывозить мусор?</h3>
                             <div class="calc__trash">
-                                <label class="check option" style="margin-right: 50px;">
-                                    <input class="check__input" type="checkbox" checked>
-                                    <span class="check__box trash"></span>
+                                <label class="check option" style="margin-right: 50px;"">
+                                    <input class=" check__input" type="checkbox" checked id="yes" s>
+                                    <span class=" check__box trash"></span>
                                     <p>Да</p>
                                 </label>
                                 <label class="check option">
-                                    <input class="check__input" type="checkbox">
+                                    <input class="check__input" type="checkbox" id="no">
                                     <span class="check__box trash"></span>
                                     <p>Нет</p>
                                 </label>
@@ -335,7 +378,7 @@
                             <h2 class="calc__form-subtitle">Заполните форму и мы свяжемся с Вами для обсуждения
                                 деталей
                             </h2>
-                            <input class="calc__form-input" type="text" placeholder="+7 (___) ___-__-__">
+                            <input class="calc__form-input" type="text" placeholder="+7 (___) ___-__-__" required>
                             <button class="calc__form-btn">зафиксировать стоимость</button>
                             <label class="check option">
                                 <input class="check__input" type="checkbox" checked>
@@ -410,24 +453,22 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="result__gallery">
-                            <div class="lightgallery">
-                                <div id="gallery-hash-demo-2" class="lightgallery">
-                                    <a class="gallery__item" href="assets/img/result-img-full.jpg">
-                                        <img alt="img1" src="assets/img/result-img.png" />
-                                    </a>
-                                    <a class="gallery__item" href="assets/img/result-img-2-full.jpg">
-                                        <img alt="img2" src="assets/img/result-img-2.png" />
-                                    </a>
-                                    <a class="gallery__item" href="assets/img/result-img-3-full.jpg">
-                                        <img alt="img3" src="assets/img/result-img-3.png" />
-                                    </a>
-                                    <a class="gallery__item" href="assets/img/result-img-4-full.jpg">
-                                        <img alt="img4" src="assets/img/result-img-4.png" />
-                                    </a>
-                                    <a class="gallery__item" href="assets/img/result-img-5-full.jpg">
-                                        <img alt="img5" src="assets/img/result-img-5.png" />
-                                    </a>
-                                </div>
+                            <div id="gallery-hash-demo-2" class="lightgallery">
+                                <a class="gallery__item" href="assets/img/2-result-img-full.jpg">
+                                    <img alt="img1" src="assets/img/2-result-img-full.jpg" />
+                                </a>
+                                <a class="gallery__item" href="assets/img/2-result-img-full-2.jpg">
+                                    <img alt="img2" src="assets/img/2-result-img-full-2.jpg" />
+                                </a>
+                                <a class="gallery__item" href="assets/img/2-result-img-full-3.jpg">
+                                    <img alt="img3" src="assets/img/2-result-img-full-3.jpg" />
+                                </a>
+                                <a class="gallery__item" href="assets/img/2-result-img-full-4.jpg">
+                                    <img alt="img4" src="assets/img/2-result-img-full-4.jpg" />
+                                </a>
+                                <a class="gallery__item" href="assets/img/2-result-img-full-5.jpg">
+                                    <img alt="img5" src="assets/img/2-result-img-full-5.jpg" />
+                                </a>
                             </div>
                             <div class="result__description">
                                 <h2 class="result__description-title">Снос коммерческого здания 400м2</h2>
@@ -447,7 +488,7 @@
                                 <div class="result__description-options">
                                     <div class="description__options-item">
                                         <img src="assets/img/work-item.svg" alt="">
-                                        <p>8 дней</p>
+                                        <p>11 дней</p>
                                     </div>
                                     <div class="description__options-item">
                                         <img src="assets/img/work-item-2.svg" alt="">
@@ -463,38 +504,75 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="result__gallery">
-                            <div class="lightgallery">
-                                <div id="gallery-hash-demo-3" class="lightgallery">
-                                    <a class="gallery__item" href="assets/img/result-img-full.jpg">
-                                        <img alt="img1" src="assets/img/result-img.png" />
-                                    </a>
-                                    <a class="gallery__item" href="assets/img/result-img-2-full.jpg">
-                                        <img alt="img2" src="assets/img/result-img-2.png" />
-                                    </a>
-                                    <a class="gallery__item" href="assets/img/result-img-3-full.jpg">
-                                        <img alt="img3" src="assets/img/result-img-3.png" />
-                                    </a>
-                                    <a class="gallery__item" href="assets/img/result-img-4-full.jpg">
-                                        <img alt="img4" src="assets/img/result-img-4.png" />
-                                    </a>
-                                    <a class="gallery__item" href="assets/img/result-img-5-full.jpg">
-                                        <img alt="img5" src="assets/img/result-img-5.png" />
-                                    </a>
-                                </div>
+                            <div id="gallery-hash-demo-3" class="lightgallery">
+                                <a class="gallery__item" href="assets/img/3-result-img-full.jpg">
+                                    <img alt="img1" src="assets/img/3-result-img-full.jpg" />
+                                </a>
+                                <a class="gallery__item" href="assets/img/3-result-img-full-1.jpg">
+                                    <img alt="img2" src="assets/img/3-result-img-full-1.jpg" />
+                                </a>
+                                <a class="gallery__item" href="assets/img/3-result-img-full-22.jpg">
+                                    <img alt="img3" src="assets/img/3-result-img-full-2.jpg" />
+                                </a>
                             </div>
                             <div class="result__description">
-                                <h2 class="result__description-title">Демонтаж второго этажа гаражного кооператива
-                                    350м²
-                                </h2>
+                                <h2 class="result__description-title">Демонтаж старого дачного домика 55м2</h2>
                                 <div class="result__description-geo">
                                     <img src="assets/img/discrp-geo.svg" alt="">
-                                    <p>Адрес: Одоевского, 14</p>
+                                    <p>Адрес: Николохованское СНТ дубрава 12</p>
                                 </div>
                                 <div class="result__description-work">
                                     <h3 class="description__work-title">Выполненные работы:</h3>
-                                    <p>Снос стен и перегородок, демонтаж крыши, работа осуществлялась под ключ с
-                                        вывозом
+                                    <p>Демонтаж старого дачного домика 55м2, ломали в ручную сделали под ключ с вывозом
                                         мусора</p>
+                                </div>
+                                <div class="result__description-options">
+                                    <div class="description__options-item">
+                                        <img src="assets/img/work-item.svg" alt="">
+                                        <p>8 часов</p>
+                                    </div>
+                                    <div class="description__options-item">
+                                        <img src="assets/img/work-item-2.svg" alt="">
+                                        <p>5 человек</p>
+                                    </div>
+                                    <div class="description__options-item">
+                                        <img src="assets/img/work-item-3.svg" alt="">
+                                        <p>от 1200р/м²</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="result__gallery">
+                            <div id="gallery-hash-demo-4" class="lightgallery">
+                                <a class="gallery__item" href="assets/img/4-slide-p.jpg">
+                                    <img alt="img1" src="assets/img/4-slide-p.jpg" />
+                                </a>
+                                <a class="gallery__item" href="assets/img/4-slide-p-2.jpg">
+                                    <img alt="img2" src="assets/img/4-slide-p-2.jpg" />
+                                </a>
+                                <a class="gallery__item" href="assets/img/4-slide-p-3.jpg">
+                                    <img alt="img3" src="assets/img/4-slide-p-3-s.jpg" />
+                                </a>
+                                <a class="gallery__item" href="assets/img/4-slide-p-4.jpg">
+                                    <img alt="img3" src="assets/img/4-slide-p-4-s.jpg" />
+                                </a>
+                                <a class="gallery__item" href="assets/img/4-slide-p-5.jpg">
+                                    <img alt="img3" src="assets/img/4-slide-p-5.jpg" />
+                                </a>
+                            </div>
+                            <div class="result__description">
+                                <h2 class="result__description-title">Демонтаж квартиры 65м2</h2>
+                                <div class="result__description-geo">
+                                    <img src="assets/img/discrp-geo.svg" alt="">
+                                    <p>Адрес: Лобачевского 68А</p>
+                                </div>
+                                <div class="result__description-work">
+                                    <h3 class="description__work-title">Выполненные работы:</h3>
+                                    <p>сносили перегородки в ванной и туалете, демонтаж деревянного пола до перекрытия,
+                                        доска паркет, снятие штукатурки с потолка и стен. Работу выполняли под ключ с
+                                        вывозом мусора</p>
                                 </div>
                                 <div class="result__description-options">
                                     <div class="description__options-item">
@@ -507,7 +585,97 @@
                                     </div>
                                     <div class="description__options-item">
                                         <img src="assets/img/work-item-3.svg" alt="">
-                                        <p>от 950р/м²</p>
+                                        <p>от 1400р/м²</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="result__gallery">
+                            <div id="gallery-hash-demo-5" class="lightgallery">
+                                <a class="gallery__item" href="assets/img/5-slide-p.jpg">
+                                    <img alt="img1" src="assets/img/5-slide-p.jpg" />
+                                </a>
+                                <a class="gallery__item" href="assets/img/5-slide-p-2.jpg">
+                                    <img alt="img2" src="assets/img/5-slide-p-2.jpg" />
+                                </a>
+                                <a class="gallery__item" href="assets/img/5-slide-p-3.jpg">
+                                    <img alt="img3" src="assets/img/5-slide-p-3.jpg" />
+                                </a>
+                                <a class="gallery__item" href="assets/img/5-slide-p-4.jpg">
+                                    <img alt="img3" src="assets/img/5-slide-p-4.jpg" />
+                                </a>
+                                <a class="gallery__item" href="assets/img/5-slide-p-5.jpg">
+                                    <img alt="img3" src="assets/img/5-slide-p-5.jpg" />
+                                </a>
+                            </div>
+                            <div class="result__description">
+                                <h2 class="result__description-title">Снос частного дома с гаражом 400м2</h2>
+                                <div class="result__description-geo">
+                                    <img src="assets/img/discrp-geo.svg" alt="">
+                                    <p>Адрес: Дмитровский район Яхрома</p>
+                                </div>
+                                <div class="result__description-work">
+                                    <h3 class="description__work-title">Выполненные работы:</h3>
+                                    <p>производили снос механизированно с помощью полноповоротного экскаватора и
+                                        экскаватора погрузчика, работу выполнили за 3 дня, производили сортировку
+                                        строительного мусора, Мусор заказчик принципиально вывозил самостоятельно,
+                                        стоимость от 450р/м2</p>
+                                </div>
+                                <div class="result__description-options">
+                                    <div class="description__options-item">
+                                        <img src="assets/img/work-item.svg" alt="">
+                                        <p>3 дня</p>
+                                    </div>
+                                    <div class="description__options-item">
+                                        <img src="assets/img/work-item-2.svg" alt="">
+                                        <p>5 человек</p>
+                                    </div>
+                                    <div class="description__options-item">
+                                        <img src="assets/img/work-item-3.svg" alt="">
+                                        <p>450р/м2</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="result__gallery">
+                            <div id="gallery-hash-demo-6" class="lightgallery">
+                                <a class="gallery__item" href="assets/img/6-slide-p.jpg">
+                                    <img alt="img1" src="assets/img/6-slide-p.jpg" />
+                                </a>
+                                <a class="gallery__item" href="assets/img/6-slide-p-2.jpg">
+                                    <img alt="img2" src="assets/img/6-slide-p-2.jpg" />
+                                </a>
+                            </div>
+                            <div class="result__description">
+                                <h2 class="result__description-title">Демонтаж спортивных раздевалок и душевых в здании
+                                    государственного Автономного учреждения Гормедтехника, 75м2</h2>
+                                <div class="result__description-geo">
+                                    <img src="assets/img/discrp-geo.svg" alt="">
+                                    <p>Адрес: Дубининская 98</p>
+                                </div>
+                                <div class="result__description-work">
+                                    <h3 class="description__work-title">Выполненные работы:</h3>
+                                    <p>Производили демонтаж сантехнической кабины, перегородок душевых, а так же
+                                        демонтаж бетонной стяжки, и очистка стен и потолка от старой краски и штукатурки
+                                        Работу выполнили за 10 дней, работа выполнена под ключ с вывозом мусора,
+                                        стоимость от 1400р/м2</p>
+                                </div>
+                                <div class="result__description-options">
+                                    <div class="description__options-item">
+                                        <img src="assets/img/work-item.svg" alt="">
+                                        <p>10 дней</p>
+                                    </div>
+                                    <div class="description__options-item">
+                                        <img src="assets/img/work-item-2.svg" alt="">
+                                        <p>5 человек</p>
+                                    </div>
+                                    <div class="description__options-item">
+                                        <img src="assets/img/work-item-3.svg" alt="">
+                                        <p>1400р/м2</p>
                                     </div>
                                 </div>
                             </div>
@@ -528,13 +696,31 @@
             <div class="swiper video__slider">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="assets/img/video-slider.png" alt="">
+                        <div class="embed">
+                            <iframe width="1904" height="760" src="https://www.youtube.com/embed/Xj42vxoLQIE"
+                                title="Демонтаж БМЗ здания гидромолот, демонтаж сооружения, снос аварийный объектов"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
                     </div>
                     <div class="swiper-slide">
-                        <img src="assets/img/video-slider.png" alt="">
+                        <div class="embed">
+                            <iframe width="1904" height="760" src="https://www.youtube.com/embed/Xj42vxoLQIE"
+                                title="Демонтаж БМЗ здания гидромолот, демонтаж сооружения, снос аварийный объектов"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
                     </div>
                     <div class="swiper-slide">
-                        <img src="assets/img/video-slider.png" alt="">
+                        <div class="embed">
+                            <iframe width="1904" height="760" src="https://www.youtube.com/embed/Xj42vxoLQIE"
+                                title="Демонтаж БМЗ здания гидромолот, демонтаж сооружения, снос аварийный объектов"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
                     </div>
                 </div>
                 <div class="swiper-pagination"></div>
@@ -555,7 +741,7 @@
                 всех
                 деталей</h2>
             <form class="order__input">
-                <input type="text" placeholder="+7 (___) ___-__-__">
+                <input type="text" placeholder="+7 (___) ___-__-__" required>
                 <button type="submit" class="order__button">заказать</button>
             </form>
             <label class="check option">
@@ -579,45 +765,48 @@
                         <p>Обеспечены всем необходимым <span>оборудованием, техникой и персоналом</span></p>
                     </div>
                     <div class="features__item">
-                        <img src="assets/img/features-ico.svg" alt="">
+                        <img src="assets/img/Frame2.svg" alt="">
                         <p><span>Сотрудники граждане РФ</span> с возможностью работы на закрытых объектах</p>
                     </div>
                     <div class="features__item">
-                        <img src="assets/img/features-ico.svg" alt="">
-                        <p>Обеспечены всем необходимым <span>оборудованием, техникой и персоналом</span></p>
+                        <img src="assets/img/Frame-1.svg" alt="">
+                        <p>Имеем <span>лицензию</span> на деятельность, <span>состоим в СРО</span></p>
                     </div>
                     <div class="features__item">
-                        <img src="assets/img/features-ico.svg" alt="">
-                        <p>Обеспечены всем необходимым <span>оборудованием, техникой и персоналом</span></p>
+                        <img src="assets/img/Frame-3.svg" alt="">
+                        <p>Талоны на <span>утилизацию</span></p>
                     </div>
                 </div>
                 <div class="features__column">
                     <div class="features__item">
-                        <img src="assets/img/features-ico.svg" alt="">
-                        <p>Обеспечены всем необходимым <span>оборудованием, техникой и персоналом</span></p>
+                        <img src="assets/img/Frame-4.svg" alt="">
+                        <p>После подписания договора <span>цена не меняется</span>, оплата производится по факту</p>
                     </div>
                     <div class="features__item">
-                        <img src="assets/img/features-ico.svg" alt="">
-                        <p><span>Сотрудники граждане РФ</span> с возможностью работы на закрытых объектах</p>
+                        <img src="assets/img/Frame-2.svg" alt="">
+                        <p><span>Принимаем <span>оплату любым удобным способом</span> (наличные/безналичные, ндс/без
+                                ндс)</p>
                     </div>
                     <div class="features__item">
-                        <img src="assets/img/features-ico.svg" alt="">
-                        <p>Обеспечены всем необходимым <span>оборудованием, техникой и персоналом</span></p>
+                        <img src="assets/img/svg.svg" alt="">
+                        <p>Работаем с <span>физическими и юридическими</span> лицами, а также <span>с гос.
+                                учреждениями</span></p>
                     </div>
                     <div class="features__item">
-                        <img src="assets/img/features-ico.svg" alt="">
-                        <p>Обеспечены всем необходимым <span>оборудованием, техникой и персоналом</span></p>
+                        <img src="assets/img/Frame.svg" alt="">
+                        <p><span>Электронный</span> документооборот</p>
                     </div>
                 </div>
                 <div class="features__column">
                     <div class="features__last">
                         <div class="features__item">
-                            <img src="assets/img/features-ico.svg" alt="">
-                            <p>Обеспечены всем необходимым <span>оборудованием, техникой и персоналом</span></p>
+                            <img src="assets/img/svg-1.svg" alt="">
+                            <p>Начинаем <span>демонтаж в день заявки</span>, минимально через 3 часа после звонка</span>
+                            </p>
                         </div>
                         <div class="features__item">
-                            <img src="assets/img/features-ico.svg" alt="">
-                            <p><span>Сотрудники граждане РФ</span> с возможностью работы на закрытых объектах</p>
+                            <img src="assets/img/svg-2.svg" alt="">
+                            <p>Все работы производим <span>в соответствии с ГОСТ и СНИП</span></p>
                         </div>
                     </div>
                     <div class="features__how">
@@ -626,8 +815,10 @@
                                     нам фотографию
                                     объекта</span> в WhatsApp и в ответ <span>мы напишем точную цену!</span></h1>
                             <div class="how__button">
-                                <img src="assets/img/header-whatsapp.png" alt="">
-                                <a href="#">узнать стоимость по фото</a>
+                                <img class="how__button-ico" src="assets/img/header-whatsapp.png" alt="">
+                                <a href="#">
+                                    <img src="assets/img/header-whatsapp.png" alt="">
+                                    узнать стоимость по фото</a>
                             </div>
                         </div>
                     </div>
@@ -645,10 +836,10 @@
                         <img class="reviews__item" src="assets/img/reviews-slide.png" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <img class="reviews__item" src="assets/img/reviews-slide.png" alt="">
+                        <img class="reviews__item" src="assets/img/reviews-slide-2.png" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <img class="reviews__item" src="assets/img/reviews-slide.png" alt="">
+                        <img class="reviews__item" src="assets/img/reviews-slide-3.png" alt="">
                     </div>
                 </div>
                 <div class="swiper-pagination"></div>
@@ -684,7 +875,7 @@
                     </h2>
                 </div>
                 <div class="contacts__right">
-                    <img src="assets/img/contacts-map.png" alt="">
+                    <div id="map" style="width:100%;height:250px;margin-top:32px;"></div>
                 </div>
             </div>
         </div>

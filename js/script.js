@@ -11,27 +11,26 @@ lightGallery(document.getElementById('gallery-hash-demo-3'), {
     galleryId: 3
 });
 
+lightGallery(document.getElementById('gallery-hash-demo-4'), {
+    galleryId: 4
+});
 
-const swiper = new Swiper('.works__cards', {
-    spaceBetween: 20,
+lightGallery(document.getElementById('gallery-hash-demo-5'), {
+    galleryId: 5
+});
+
+lightGallery(document.getElementById('gallery-hash-demo-6'), {
+    galleryId: 6
+});
+
+
+const swiper = new Swiper('.works__slider', {
+    slidesPerView: 2,
+
     scrollbar: {
         el: '.swiper-scrollbar',
         draggable: true,
     },
-
-    breakpoints: {
-        730: {
-            slidesPerView: 3,
-        },
-
-        1: {
-            freeMode: true,
-            grid: {
-                rows: 1,
-            },
-            slidesPerView: 1,
-        },
-    }
 });
 
 
@@ -96,3 +95,20 @@ const swiper4 = new Swiper('.reviews__slider', {
         },
     }
 });
+
+// Функция ymaps.ready() будет вызвана, когда
+// загрузятся все компоненты API, а также когда будет готово DOM-дерево.
+ymaps.ready(init);
+function init() {
+    // Создание карты.
+    var myMap = new ymaps.Map("map", {
+        // Координаты центра карты.
+        // Порядок по умолчанию: «широта, долгота».
+        // Чтобы не определять координаты центра карты вручную,
+        // воспользуйтесь инструментом Определение координат.
+        center: [55.61406806, 37.70561281],
+        // Уровень масштабирования. Допустимые значения:
+        // от 0 (весь мир) до 19.
+        zoom: 17
+    });
+}

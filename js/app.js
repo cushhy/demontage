@@ -7,4 +7,23 @@ $(document).ready(function () {
         $('.page').toggleClass('active');
     });
 
+    /* --------   Smooth scroll    ---------  */
+
+    $('nav a').on("click", function (event) {
+        $('nav a').removeClass('active');
+        $(this).addClass('active');
+    });
+
+    $('#yes').on('click', function () {
+        $('#yes').prop('checked', true);
+        $('#no').prop('checked', false);
+    });
+
+    $('#no').on('click', function () {
+        $('#no').prop('checked', true);
+        $('#yes').prop('checked', false);
+    });
+
+
+
 });
